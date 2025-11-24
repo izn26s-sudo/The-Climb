@@ -1276,6 +1276,7 @@ MonoBehaviour:
   canGoBack: 1
   goToDoor: {fileID: 113205923}
   goToWhere: {fileID: 672062028}
+  buddyStage: 0
 --- !u!1 &114608979
 GameObject:
   m_ObjectHideFlags: 0
@@ -8105,6 +8106,7 @@ MonoBehaviour:
   canGoBack: 0
   goToDoor: {fileID: 0}
   goToWhere: {fileID: 113205923}
+  buddyStage: 0
 --- !u!65 &672062030
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -13683,6 +13685,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b42a8c65b60f3724cad776ba0c5f9d96, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::LightDarkWorld
+  text: {fileID: 0}
   brightnessState: 0
 --- !u!4 &1100608557
 Transform:
@@ -17673,6 +17676,7 @@ MonoBehaviour:
   - {fileID: 1346278039}
   - {fileID: 1346278050}
   duration: 0.5
+  cooldownTime: 3
 --- !u!114 &1346278052
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -17706,6 +17710,8 @@ MonoBehaviour:
   checkpointVisuals:
   - {fileID: 1507530941}
   - {fileID: 1062083686}
+  maxHeightFromCheckpoint: 30
+  fallDistanceFromCheckpoint: 20
 --- !u!1 &1346775623
 GameObject:
   m_ObjectHideFlags: 0
